@@ -1,0 +1,70 @@
+﻿<views:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:views="clr-namespace:PM2E19315.View"
+                xmlns:viewmodels="clr-namespace:PM2E19315.ViewModel"
+                x:Class="PM2E19315.View.Pantalla1Page"
+                Title="Geolocalización">
+    <views:BasePage.BindingContext>
+        <viewmodels:Pantalla1ViewModel />
+    </views:BasePage.BindingContext>
+
+    <StackLayout>
+        <ScrollView>
+            <StackLayout Padding="12,0,12,12" Spacing="6">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <BoxView Grid.Row="0"
+                         Grid.Column="0" />
+                    <Button Grid.Row="0"
+                            Grid.Column="0"
+                            Text="Nueva Ubicación"
+                            VerticalOptions="Center"></Button>
+                            
+                    <BoxView Grid.Row="0"
+                         Grid.Column="1" />
+                    <Button Grid.Row="0"
+                            Grid.Column="1"
+                            Text="Ubicaciones Salvadas"
+                            VerticalOptions="Center"></Button>
+                </Grid>
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" />
+
+                <Image Source="logouth.png"
+                       HeightRequest="200"
+                       HorizontalOptions="Center"
+                       Aspect="AspectFill" />
+                <Label Text="Latitd actual:" FontAttributes="Bold"/>
+                <Entry x:Name="Lat" Text="{Binding CurrentLocation1}" IsReadOnly="true" />
+                <Label Text="Longitud actual:" FontAttributes="Bold"/>
+                <Entry x:Name="Long" Text="{Binding CurrentLocation2}" IsReadOnly="true" />
+                <Label Text="Describa la ubicación:" FontAttributes="Bold"/>
+                <Editor x:Name="LongDescrpt" Text="" HeightRequest="100" />
+                <Label Text="Descripción corta:" FontAttributes="Bold"/>
+                <Entry x:Name="ShortDescrpt" MaxLength="15" Text=""/>
+                <Button Text="Obtener Ubicación" 
+                        BorderRadius="10"
+                        BorderWidth="1"
+                        BorderColor="Black"  
+                        TextColor="White"
+                        Margin="30,0,30,0"
+                        Command="{Binding GetCurrentLocationCommand}" 
+                        IsEnabled="{Binding IsNotBusy}" />
+                <Button Text="Guardar"
+                BorderRadius="10"
+                BorderWidth="1"
+                BorderColor="Black"  
+                TextColor="White"
+                Margin="30,0,30,0"
+                Clicked="Continue_Tapped"/>
+
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</views:BasePage>

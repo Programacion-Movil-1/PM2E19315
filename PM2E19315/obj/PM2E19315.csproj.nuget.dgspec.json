@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj": {}
+    "C:\\Xamarin\\E1\\PM2E19315\\PM2E19315.csproj": {}
   },
   "projects": {
-    "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj": {
+    "C:\\Xamarin\\E1\\PM2E19315\\PM2E19315.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj",
+        "projectUniqueName": "C:\\Xamarin\\E1\\PM2E19315\\PM2E19315.csproj",
         "projectName": "PM2E19315",
-        "projectPath": "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj",
+        "projectPath": "C:\\Xamarin\\E1\\PM2E19315\\PM2E19315.csproj",
         "packagesPath": "C:\\Users\\Daniel Solano\\.nuget\\packages\\",
-        "outputPath": "C:\\Xamarin\\PM2E19315\\PM2E19315\\obj\\",
+        "outputPath": "C:\\Xamarin\\E1\\PM2E19315\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Xamarin\\PM2E19315\\PM2E19315.Android\\PM2E19315.Android.csproj",
+      "projectUniqueName": "C:\\Xamarin\\E1\\PM2E19315.Android\\PM2E19315.Android.csproj",
       "projectName": "PM2E19315.Android",
-      "projectPath": "C:\\Xamarin\\PM2E19315\\PM2E19315.Android\\PM2E19315.Android.csproj",
+      "projectPath": "C:\\Xamarin\\E1\\PM2E19315.Android\\PM2E19315.Android.csproj",
       "packagesPath": "C:\\Users\\Daniel Solano\\.nuget\\packages\\",
-      "outputPath": "C:\\Xamarin\\PM2E19315\\PM2E19315.Android\\obj\\",
+      "outputPath": "C:\\Xamarin\\E1\\PM2E19315.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj": {
-              "projectPath": "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj"
+            "C:\\Xamarin\\E1\\PM2E19315\\PM2E19315.csproj": {
+              "projectPath": "C:\\Xamarin\\E1\\PM2E19315\\PM2E19315.csproj"
             }
           }
         }

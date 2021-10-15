@@ -61,15 +61,50 @@ namespace PM2E19315.View
 
         async void Continue_Tapped(object sender, EventArgs e)
         {
-            if (await ValidationForm())
+            try
+            {
+                var localizacion = new Model.Localizacion
+                {
+                    Lat = Convert.ToDouble(Lat.Text),
+                    Long = Convert.ToDouble(Long.Text),
+                    DescripUbi = LongDescrpt.Text,
+                    DescriCort = ShortDescrpt.Text
+                };
+
+                var resultado = await App.BaseDatos.GrabarLocalizacion(localizacion);
+
+                if (resultado == 1)
+                {
+                    await DisplayAlert("Agregado", "Ingresado Exitosamente", "OK");
+                }
+                else
+                {
+                    await DisplayAlert("Error", "No se pudo grabar persona", "OK");
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", ex.Message, "OK");
+            }
+            /* if (await ValidationForm())
             {
                 await DisplayAlert("Exito", "Guardado Correctamente", "OK");
-            }
+            } */
+            
         }
 
         async void GPS_Activated(object sender, EventArgs e)
         {
             await ValidationGPS();
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            //Ver Guardadas
+            
+            
+            await Navigation.PushAsync(new View.Pantalla2Page());
+            
         }
     }
 }

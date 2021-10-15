@@ -2142,18 +2142,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel Solano\\.nuget\\packages\\": {},
+    "C:\\Users\\m4rv1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Xamarin\\PM2E19315\\PM2E19315.Android\\PM2E19315.Android.csproj",
+      "projectUniqueName": "C:\\Users\\m4rv1\\Source\\Repos\\PM2E19315\\PM2E19315.Android\\PM2E19315.Android.csproj",
       "projectName": "PM2E19315.Android",
-      "projectPath": "C:\\Xamarin\\PM2E19315\\PM2E19315.Android\\PM2E19315.Android.csproj",
-      "packagesPath": "C:\\Users\\Daniel Solano\\.nuget\\packages\\",
-      "outputPath": "C:\\Xamarin\\PM2E19315\\PM2E19315.Android\\obj\\",
+      "projectPath": "C:\\Users\\m4rv1\\Source\\Repos\\PM2E19315\\PM2E19315.Android\\PM2E19315.Android.csproj",
+      "packagesPath": "C:\\Users\\m4rv1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m4rv1\\Source\\Repos\\PM2E19315\\PM2E19315.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2161,7 +2161,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel Solano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\m4rv1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj": {
-              "projectPath": "C:\\Xamarin\\PM2E19315\\PM2E19315\\PM2E19315.csproj"
+            "C:\\Users\\m4rv1\\Source\\Repos\\PM2E19315\\PM2E19315\\PM2E19315.csproj": {
+              "projectPath": "C:\\Users\\m4rv1\\Source\\Repos\\PM2E19315\\PM2E19315\\PM2E19315.csproj"
             }
           }
         }

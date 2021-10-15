@@ -25,16 +25,15 @@ namespace PM2E19315.View
 
         }
 
-        private void lslocalizaciones_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void lslocalizaciones_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             //When selecciono uno
-            /*
-            Models.Personas item = (Models.Personas)e.Item;
-            //await DisplayAlert("Elemento tocado ", "Correo:" + item.email, "OK");
+            
+            //View.Pantalla3Page item = (View.Pantalla3Page)e.Item;
 
-            var page = new Views.UpdatePage();
-            page.BindingContext = item;
-            await Navigation.PushAsync(page);*/
+            var page = new View.Pantalla3Page();
+            //page.BindingContext = item;
+            await Navigation.PushAsync(page);
         }
     }
 }
